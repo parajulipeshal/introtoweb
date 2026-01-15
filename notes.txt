@@ -1,0 +1,12 @@
+What is up with the urls?
+
+http://127.0.0.1:5500/index.html#summary-section
+#cat-section
+img/cat1.jpg
+
+http://     -protocol http(80) https(443)
+127.0.0.1   -ip address or host or domain name
+:5500        -port
+/index.html -path
+#summary-section  -hash (optional)
+?key=value        -query string ()

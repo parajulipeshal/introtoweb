@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#cat-section {
+  background-color: rgb(103, 197, 147);
+  color: rgb(42, 81, 60);
+}
+
+#cat-section figure {
+  display: inline-block;
+  background-color: rgb(167, 228, 195);
+  border-radius: 10px;
+}
+
+#cat-section figcaption {
+  padding: 10px;
+}
+
+#cat-section img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#cat-section figure:hover{
+transform: scale(1.30);
+transition: all 0.5s;
+cursor: pointer;
+}
+
+
